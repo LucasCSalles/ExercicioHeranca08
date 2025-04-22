@@ -8,7 +8,7 @@ public class Controle {
 
     public Empregado pesquisar(long matricula){
         for (int i = 0; i < indx; i++) {
-            if (matricula == list[indx].matricula){
+            if (matricula == list[i].matricula){
                 return list[i];
             }
         }
